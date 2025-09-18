@@ -20,6 +20,21 @@ public abstract class Giocatore {
         this.inventario = new ArrayList<>();
     }
 
-    
+    public void attacca(Giocatore target, int danno) {
+        
+    }
 
+    
 }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public int getMana() {
+        return mana;
+    }
+
+    public int getPeso() {
+        return peso;
+    }
