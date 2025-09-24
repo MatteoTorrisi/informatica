@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 
 public abstract class Giocatore {
@@ -25,8 +26,6 @@ public abstract class Giocatore {
     }
 
     
-}
-
     public int getHp() {
         return hp;
     }
@@ -38,3 +37,10 @@ public abstract class Giocatore {
     public int getPeso() {
         return peso;
     }
+
+    protected abstract void setHp(int i);
+
+    protected abstract boolean isMorto();
+
+    protected abstract Equip[] getInventario();
+}
